@@ -1,4 +1,4 @@
-const Cliente = require("../modelsCliente/ClienteModels");
+const Cliente = require("../models/ClienteModels");
 
 
 module.exports = {

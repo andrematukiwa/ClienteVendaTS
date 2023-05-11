@@ -1,7 +1,7 @@
 const express = require("express");
 const rotas = express.Router();
-const ClienteController = require("./controllersCliente/clienteController");
-const VendaController = require("./controllersVenda/vendaController");
+const ClienteController = require("./controllers/clienteController");
+const VendaController = require("./controllers/vendaController");
 
 
 rotas.post('/cliente', ClienteController.create);
